@@ -1,2 +1,2 @@
 # WAP
-W@P
+An experimental PHP website of WAP technology from the 2000s
