@@ -1,11 +1,11 @@
 <?php
     header("Content-type: text/vnd.wap.wml");
-    echo "<?xml version="1.0" encoding="UTF-8"?";
+    echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>";
 
 	date_default_timezone_set("UTC");
 	$today = date("D M j Y");
 
-    $copyright = "<p align='center' mode='wrap'>&copy; ". date("Y"); ." Renaud G.</p>"
+    $copyright = "<p align='center' mode='wrap'>&copy; ". date("Y") ." Renaud G.</p>";
 
 	$curl = curl_init();
 	curl_setopt($curl, CURLOPT_URL, 'http://api.open-notify.org/astros.json');
